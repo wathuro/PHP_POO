@@ -12,3 +12,15 @@ $triangulo = new Triangulo(7, 5, 10, 6);
 echo $triangulo->detalle_figura();
 echo '<div>Perímetro: <b>'. $triangulo->perimetro() .' </b><em>(lado_a + lado_b + lado_c)</em></div>';
 echo '<div>Área: <b>'. $triangulo->area() .' </b><em>(lado_b * altura)/2</em></div>';
+
+echo '<h2>Cuadrado</h2>';
+$cuadrado = new Cuadrado(6);
+echo $cuadrado->detalle_figura();
+echo '<div>Perímetro: <b>'. $cuadrado->perimetro() .' </b><em>(lado * 4)</em></div>';
+echo '<div>Área: <b>'. $cuadrado->area() .' </b><em>(lado^2)</em></div>';
+
+echo '<h2>Rectangulo</h2>';
+$rectangulo = new Rectangulo(5, 8);
+echo $rectangulo->detalle_figura();
+echo '<div>Perímetro: <b>'. $rectangulo->perimetro() .' </b><em>(lado + altura)*2</em></div>';
+echo '<div>Área: <b>'. $rectangulo->area() .' </b><em>(lado*altura)</em></div>';
