@@ -1,0 +1,11 @@
+body, input {
+    font-size: 1.5rem;
+}
+.error {
+    color: red;
+}
+form {
+    border: 1px dashed teal;
+    text-align: center;
+    padding-bottom: 1rem;
+}
